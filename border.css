@@ -1,0 +1,51 @@
+#par1{
+    border: 2px solid red;
+    text-align: center;
+}
+#par2{
+    border-width: 5px;
+    border-style: dotted;
+    border-color: blue;
+
+}
+#par3{
+    border: 5px double magenta;
+
+}
+#par4{
+    border: 10px dashed orangered;
+
+}
+#par5{
+
+    border: 5px outset orange;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+}
+#span1{
+    border: 10px double red;
+ display: block;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    
+}
+/* inline elementler margin auto ile ortalanmaz, inline elementlerle çalışırken div içine alıp text aligne center deriz veya display block diyerek inline özelliğini kırarız. span, img, buttun, label, input, textarea gibi çok kullandığımız bu elemetler inline elementlerdir */
+
+.span-container{
+    border: 5px solid blue;
+    text-align: center;
+   
+}
+#foto{
+   
+}
+#harvey{
+    border: 5px solid fuchsia;
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    /* İNLİNE elemet olan span burada width, heigt değeri almıyor sadece margin left ve margin right değeri alıyor. */
+
+}
