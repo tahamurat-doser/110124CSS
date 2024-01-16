@@ -1,0 +1,49 @@
+h1{
+    color: red;
+    background-color: aqua;
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;/* justify cümlei sağa ve sola yasladı */
+    border: 2px solid red;
+}
+
+#par1{
+    color: red;
+    text-align: center;
+    text-indent: 20px; /* text-indent metnin başına istediğimiz pixel kadar boşluk koyer */
+    letter-spacing: 5px;/* harlerin arasını açar */
+    text-shadow: 2px 2px 3px orange ; /* gölgelendirme için kullanılır, x ,y opaklık renk */
+    column-count: 2;/* bazı dergilerde kullanılan bir özellik metni istediğimiz kadar parçaya bölüyor. */
+    column-rule: 3px double black;/* metnin arasına çizgi çizdik. */
+    font-size: 2rem;
+}
+#par2{
+color: blue;
+text-align: right;
+line-height: 2;/* satır yükseklği */
+direction: rtl;
+unicode-bidi: bidi-override;
+/* direction cümlyi tersten okutur ve bunula beraber unicode-bidi bidi-override yaparsam bütün kelimeler tese döner ve cümlem tersten okunur hale gelir. */
+}
+#par3{
+    color: green;
+    text-align:justify;
+    text-decoration: line-through dashed;/* cümlenin altına üstüne çizgiler çekmek için kulanırız burada çizgilerin şeklini de değiştirebilir. */
+    
+
+}
+#par4{
+color: blueviolet;
+text-align: left;
+text-transform: uppercase; /* harfleri büyütür küçültür sadece kaelimelirin baş harflerini büyütebilir */
+text-decoration:overline line-through wavy
+}
+#par5{
+color: orange;
+text-transform: capitalize;
+text-decoration: underline double;
+}
+span{
+    color: yellow;
+}
