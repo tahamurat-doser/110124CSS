@@ -1,9 +1,12 @@
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .font1{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
 }
 .font2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,12 +18,19 @@ font-weight ile font umun harf genişliğini ayarlıyorum
 font size ile fontumun büyüklüğünü ayarlıyorum */
 .font3{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 32px;
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    /* font-variant büyüklü küçüklü bir yazının bütün harflerini büyütür ve cümlenin ilk harfini diğerlerinde daha büyük yapar. text transform da uppercase de harfleri büyütüyordu fakat burada hem büyüttü hemde ilk harfleri daha büyük yaptı. */
 
 }
+/* vscode dakiler haricinde font kullanmak istiyorsak google fonta müracat ederiz. */
 .font4{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
 
 }
 .font5{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 30px;
 
 }

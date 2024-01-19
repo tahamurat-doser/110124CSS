@@ -1,0 +1,48 @@
+
+
+
+.container{
+    border: 3px solid red;
+    width: 20rem;
+    height: 20rem;
+    margin: 50px auto;
+    padding: 10px;
+    text-align: justify;
+   /*  background-image: url(./img/cherry-blossoms-8436420_1920.jpg); */
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    /* background-position: left bottom; */
+    /* background-size: contain; */
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-size: 20px;
+    text-shadow: 3px 3px 5px yellow;
+    overflow: scroll;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.361), rgba(0, 0, 0, 0.057)),url(./img/cherry-blossoms-8436420_1920.jpg);
+    /*background-image: linear-gradient(to left, rgba(0, 0, 0, 0.361), rgba(0, 0, 0, 0.057)),url(./img/cherry-blossoms-8436420_1920.jpg); ı bu şekilde kullanarak resimle yazı arasına geçişli bir ince perde oluşturduk.  */
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px red;/* box-shadow:ile kutuya gölge verdik. */
+}
+/* container ın içine resmi backround image ile url yazarak getiririz.
+backround size ile resme büyüklük veririz. 
+ backround repeat ile de resinim tekraralanmasını önleriz. backround position ile resmin yerini belirleyebiliriz.
+  */
+  /* !backround size contain ile resim diz in sınırlarına ilk hangi büyüklükte ulaşırsa orada bırakır.
+  eğer cover dersem bütün kutuyu kaplacak şekilde resim büyür. */
+  .container::-webkit-scrollbar{
+   /*  width: 0px; */
+    /* display: none; */
+    visibility: hidden;
+  }
+  /* scroll ball ı saklamak için buradak iüç özelliğide kullanabiliriz.
+  !vidth ine 0px vermek, display none ve visibitiy hidden */
+  .container2{
+    border: 2px solid red;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    background-image: linear-gradient(to right, red, yellow);
+    /* background-image: linear-gradient(to right, red, yellow ile renk geçişi sağladık burada linear gra... kullandık. */
+    box-shadow: 5px 5px 10px red;
+  }
